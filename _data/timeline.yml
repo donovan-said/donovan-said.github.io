@@ -1,17 +1,18 @@
-- title: Student, Harvard CS
-  from: 2014
-  to: 2018
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-
-- title: Software Engineer, Google, UK
-  from: 2018
-  to: present
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+- title: Principal Cloud Systems Develop, Cloudreach, Uk
+  from: 2016
+  to: Present
+  description: Throughout my time at Cloudreach, I’ve had the opportunity to work on an extensive and varied portfolio 
+               of projects for multiple FTSE 100 companies and government entities. Whilst on these engagements, I’ve 
+               been heavily involved in the design, development, management and governance of the solutions that we were 
+               brought in to deliver. With respect to the solutions themselves, these have ranged from an AWS Landing 
+               Zone platform for a national financial regulator to an EV charging frontend platform for a multinational 
+               energy provider.
+#
+#- title: Software Engineer, Google, UK
+#  from: 2018
+#  to: present
+#  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+#               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+#               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+#               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+#               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
