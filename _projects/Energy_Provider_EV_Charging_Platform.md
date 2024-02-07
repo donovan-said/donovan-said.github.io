@@ -1,6 +1,6 @@
 ---
 name: EV Charging Platform
-tools: [AWS, Kubernetes, Docker, Terraform, CDK, Python, Gherkin, Azure DevOps, Grafana]
+tools: [AWS, Kubernetes, Docker, Terraform, CDK, Python, behave, Azure DevOps, Grafana, PostgreSQL]
 image:
 description: Multinational Energy Provider
 ---
