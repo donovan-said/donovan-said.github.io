@@ -1,6 +1,6 @@
 # donovan-said.github.io
 
-This website was build using [Jekyll](https://jekyllrb.com/) and the 
+This website was built using [Jekyll](https://jekyllrb.com/) and the 
 [portfolYOU](https://github.com/YoussefRaafatNasry/portfolYOU/tree/master) theme.
 
 # Local Testing

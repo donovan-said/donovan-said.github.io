@@ -1,11 +1,12 @@
 ### Site Settings ###
 title               : Donovan's Portfolio
 description         : >-
-                      This site is a WIP.
-baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
-repository          : donovan-said/donovan-said.github.io   # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
+                      Hi, I'm Donovan, and this is my space where you can hopefully learn a little bit about myself, 
+                      my professional experience and interests.
+baseurl             : ""
+repository          : donovan-said/donovan-said.github.io
 remote_theme        : YoussefRaafatNasry/portfolYOU
-open_new_tab        : false                             # Opens external URLs in new tab (works for posts, projects and navbar only)
+open_new_tab        : true                             # Opens external URLs in new tab (works for posts, projects and navbar only)
 
 
 ### Plugins ###
@@ -14,7 +15,7 @@ plugins:
 
 
 ### Navbar Settings ###
-nav_exclude:                                            # The following paths are excluded from navbar
+nav_exclude:  # The following paths are excluded from navbar
   - pages/tags.html
   - pages/404.html
   - pages/index.md
@@ -96,5 +97,6 @@ defaults:
 exclude:
   - README.md
   - CONTRIBUTING.md
+  - CHANGELOG.md
   - LICENSE
   - "*.log"

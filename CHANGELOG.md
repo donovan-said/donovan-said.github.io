@@ -17,6 +17,14 @@ __Reference__:
 
 # CHANGELOG
 
+## [0.2.0]
+
+### Changed
+
+* Added CHANGELOG to exclusion list
+* Fixed typo in README
+* Added intro to home page
+
 ## [0.1.0]
 
 ### Added
