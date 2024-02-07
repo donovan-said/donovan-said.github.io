@@ -1,0 +1,7 @@
+- name: Consulting
+  percentage: 75
+  color: success
+
+- name: Leadership
+  percentage: 65
+  color: info
