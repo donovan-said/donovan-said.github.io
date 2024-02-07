@@ -1,0 +1,11 @@
+- name: Infrastructure
+  percentage: 80
+  color: danger
+
+- name: Serverless
+  percentage: 70
+  color: success
+
+- name: Automation
+  percentage: 75
+  color: success

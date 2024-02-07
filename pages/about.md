@@ -14,9 +14,9 @@ every stage of the Cloud Transformation lifecycle, both from an infrastructure a
 My favourite part of this job is finding innovative and simple solutions for complex problems.
 
 <div class="row">
-{% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
-{% include about/skills.html title="Other Skills" source=site.data.other-skills %}
-{% include about/skills.html title="CSP Skills" source=site.data.other-skills %}
+{% include about/skills.html title="CSP Skills" source=site.data.csp-skills %}
+{% include about/skills.html title="DevOps Skills" source=site.data.devops-skills %}
+{% include about/skills.html title="Soft Skills" source=site.data.soft-skills %}
 </div>
 
 <div class="row">

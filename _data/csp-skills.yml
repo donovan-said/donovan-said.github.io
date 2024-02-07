@@ -1,0 +1,11 @@
+- name: AWS
+  percentage: 85
+  color: danger
+
+- name: Azure
+  percentage: 30
+  color: info
+
+- name: GCP
+  percentage: 15
+  color: info
