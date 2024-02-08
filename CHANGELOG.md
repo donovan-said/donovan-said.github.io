@@ -17,6 +17,12 @@ __Reference__:
 
 # CHANGELOG
 
+## [0.5.0]
+
+### Changed
+
+* Docker file to build one image to be used for testing the website
+
 ## [0.4.0]
 
 ### Added
