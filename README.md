@@ -7,10 +7,12 @@ This website was built using [Jekyll](https://jekyllrb.com/) and the
 
 ## With Docker
 
-Using image and method defined by [Bret Fisher](https://github.com/BretFisher/jekyll-serve).
+Using method defined by [Bret Fisher](https://github.com/BretFisher/jekyll-serve).
 
 ```shell
+docker build -t donovan-said-github-io:latest .
 docker-compose up
+
 ```
 
 ## Without Docker
