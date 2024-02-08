@@ -5,10 +5,17 @@ This website was built using [Jekyll](https://jekyllrb.com/) and the
 
 # Local Testing
 
+## With Docker
+
+Using image and method defined by [Bret Fisher](https://github.com/BretFisher/jekyll-serve).
+
 ```shell
-bundle install      
-bundle add webrick
-bundle exec jekyll serve
+docker-compose up
 ```
 
+## Without Docker
 
+```shell
+bundle install
+bundle exec jekyll serve
+```
