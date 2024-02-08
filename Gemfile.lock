@@ -240,6 +240,9 @@ GEM
       sawyer (~> 0.9)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
+    pluginator (1.5.0)
+    pre-commit (0.40.0)
+      pluginator (~> 1.5)
     public_suffix (5.0.4)
     racc (1.7.3)
     rb-fsevent (0.11.2)
@@ -283,6 +286,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  pre-commit (~> 0.40.0)
   webrick (~> 1.8)
 
 BUNDLED WITH

@@ -1,12 +1,12 @@
 ### Site Settings ###
 title               : Donovan's Portfolio
 description         : >-
-                      Hi, I'm Donovan, and this is my space where you can hopefully learn a little bit about myself, 
+                      Hi, I'm Donovan, and this is my space, where you can hopefully learn a little bit about myself,
                       my professional experience and interests.
 baseurl             : ""
 repository          : donovan-said/donovan-said.github.io
 remote_theme        : YoussefRaafatNasry/portfolYOU
-open_new_tab        : true                             # Opens external URLs in new tab (works for posts, projects and navbar only)
+open_new_tab        : true
 
 
 ### Plugins ###
@@ -15,7 +15,7 @@ plugins:
 
 
 ### Navbar Settings ###
-nav_exclude:  # The following paths are excluded from navbar
+nav_exclude:
   - pages/tags.html
   - pages/404.html
   - pages/index.md
@@ -25,25 +25,10 @@ nav_exclude:  # The following paths are excluded from navbar
 author:
   name              : Donovan Said
   image             : /img/profile_pic.jpg
-#  behance          : your_username
-# dribbble          : your_username
   email             : donovan.s.said@gmail.com
-#  facebook          : your_username
   github            : donovan-said
-# gitlab            : your_username
-# instagram         : your_username
-# kaggle            : your_username
   linkedin          : donovansaid
-#  medium            : your_username
-# soundcloud        : your_username
   spotify           : donovan.s.said
-# stackoverflow     : your_user_id
-# tumblr            : your_username.tumblr.com
-# twitch            : your_username
-#  twitter           : your_username
-# vimeo             : your_username
-# youtube           : your_channel_name
-# keybase           : your_username
 
 
 ### Posts ###
@@ -59,12 +44,12 @@ collections:
 
 ### Disqus ###
 disqus:
-  shortname: DSP                     # Your website Shortname on disqus
+  shortname: DSP
 
 
 ### Analytics ###
 analytics:
-  enabled: false                                        # Set true to enable analytics
+  enabled: false
   google:
     tracking_id: your-google-tracking-id
 
@@ -75,7 +60,7 @@ buymeacoffee:
   enabled: false
   username: your_username
   color: "#007bff"
-  message: "Thank you for visiting."                    # Message to be displayed aside from the button for a few seconds.
+  message: "Thank you for visiting."
   description: "Support me on Buy me a coffee!"
 
 
@@ -90,7 +75,7 @@ defaults:
       path: ""
       type: "posts"
     values:
-      comments: false                                   # Set to true to enable disqus comments
+      comments: false
 
 
 ### Exclude from processing ###
