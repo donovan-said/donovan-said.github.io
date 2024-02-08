@@ -17,6 +17,12 @@ __Reference__:
 
 # CHANGELOG
 
+## [0.4.0]
+
+### Added
+
+* Docker for local testing
+
 ## [0.3.0]
 
 ### Added
