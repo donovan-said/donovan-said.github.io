@@ -17,6 +17,18 @@ __Reference__:
 
 # CHANGELOG
 
+## [0.3.0]
+
+### Added
+
+* pre-commit hook
+
+### Changed
+
+* .gitignore to include jekyll via gitignore.io
+* Updated typo in the home page
+* Added link to Cloudreach blog
+
 ## [0.2.0]
 
 ### Changed
