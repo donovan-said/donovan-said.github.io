@@ -80,6 +80,9 @@ defaults:
 
 ### Exclude from processing ###
 exclude:
+  - Dockerfile
+  - docker-compose.yml
+  - docker-entrypoint.sh
   - README.md
   - CONTRIBUTING.md
   - CHANGELOG.md

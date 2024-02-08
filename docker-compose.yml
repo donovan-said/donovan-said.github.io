@@ -1,8 +1,8 @@
 # no version needed since 2020
 
 services:
-  jekyll:
-    image: bretfisher/jekyll-serve
+  jekyll-web-service:
+    image: docker.io/library/donovan-said-github-io:latest
     volumes:
       - .:/site
     ports:
