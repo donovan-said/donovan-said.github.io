@@ -286,6 +286,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  kramdown (>= 1.11.1)
   pre-commit (~> 0.40.0)
   webrick (~> 1.8)
 
