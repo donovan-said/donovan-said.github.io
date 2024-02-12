@@ -17,6 +17,12 @@ __Reference__:
 
 # CHANGELOG
 
+## [0.7.0]
+
+### Changed
+
+* Minor formatting update to the About section.
+
 ## [0.6.0]
 
 ### Added
