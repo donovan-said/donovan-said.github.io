@@ -1,6 +1,6 @@
 ---
 title: Python behave, Dipping Our Toes In
-tags: [Testing, Python behave, Gherkin]
+tags: [Testing, Python, behave, Gherkin]
 style: fill
 color: success
 description: An introduction into Python Behave.
