@@ -17,6 +17,13 @@ __Reference__:
 
 # CHANGELOG
 
+## [0.6.0]
+
+### Added
+
+* Added blog post "Python behave, Dipping Our Toes In"
+* Kramdown package
+
 ## [0.5.0]
 
 ### Changed
