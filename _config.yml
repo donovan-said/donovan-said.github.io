@@ -8,7 +8,6 @@ repository          : donovan-said/donovan-said.github.io
 remote_theme        : YoussefRaafatNasry/portfolYOU
 open_new_tab        : true
 
-
 ### Plugins ###
 plugins:
   - jemoji
