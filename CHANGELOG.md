@@ -22,6 +22,7 @@ __Reference__:
 ### Added
 
 * Added blog post "Python behave, Dipping Our Toes In"
+* Kramdown package
 
 ## [0.5.0]
 
