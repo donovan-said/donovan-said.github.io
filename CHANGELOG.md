@@ -17,6 +17,13 @@ __Reference__:
 
 # CHANGELOG
 
+## [0.8.0]
+
+### Changed
+
+* Removed pre-commit, as this is installed via brew on my local machine, and 
+  I'd like to keep it agnostic to language specific package managers
+
 ## [0.7.0]
 
 ### Changed
