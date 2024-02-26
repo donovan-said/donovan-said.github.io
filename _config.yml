@@ -12,9 +12,6 @@ open_new_tab: true
 plugins:
   - jemoji
 
-kramdown:
-  parse_block_html: true
-
 ### Navbar Settings ###
 nav_exclude:
   - pages/tags.html
