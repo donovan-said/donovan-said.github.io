@@ -13,18 +13,18 @@ this can be anything from a website to cloud computing infrastructure. It's a gr
 "external" perspective; what I mean here is that it doesn't care about the code used to develop a particular solution,
 unlike unit tests, but rather, focuses on the behavior of the solution itself, such as testing the behaviour of an API
 endpoint.
-{: .text-justify}
+{: .text-left}
 
 Throughout this blog, I want to show you how to, firstly, set up and structure your behave tests, secondly, create a set
 of tests based on a simple use-case, and finally, run them and review the results.
-{: .text-justify}
+{: .text-left}
 
 ## Example Use Case
 
 To keep things simple, I've used a very basic use-case, that being _"check to see if a given endpoint returns an HTTP
 response code of 200"_, which hopefully, shows you how simple this can be to set up, but also how this can be expanded
 to perform more complex testing.
-{: .text-justify}
+{: .text-left}
 
 ## Setup
 
@@ -46,7 +46,7 @@ If you're unfamiliar with Pipenv, have a look at the [docs](https://pipenv.pypa.
 The basic structure for a behave directory comprises the root behave path, the features path, which contains your
 environment.py and your feature files, and finally a steps path, which contains the steps python scripts, which actually
 perform the defined tests. These will all be discussed in more detail in the following sections.
-{: .text-justify}
+{: .text-left}
 
 Below is an example of this:
 
@@ -70,7 +70,7 @@ conditions based on user defined input. For the purpose of this use-case, we're 
 which will be run prior to any features. Within this hook we've defined the conditional variable `domain` (in this case,
 they're all the same, but you get the point) based on the user input variable `env`. The variable `env` is passed in as
 user input (within the context of behave, this is called userdata), which we'll discuss towards the end of this blog.
-{: .text-justify}
+{: .text-left}
 
 {% gist c8e66e679195509a1e7bcdf13a000086 %}
 
@@ -79,7 +79,7 @@ user input (within the context of behave, this is called userdata), which we'll 
 The feature file is where we define our test case(s) in natural language, specifically by using the [Gherkin Language](https://behave.readthedocs.io/en/stable/gherkin.html#gherkin-feature-testing-language).
 This essentially follows a format which is defined by specific keywords, such as `Feature`, `Background`, `Scenario`,
 `Given`, `When`, `Then`. There are more, though for the purpose of this blog, we'll stick to these.
-{: .text-justify}
+{: .text-left}
 
 This should look something like the following:
 
@@ -89,14 +89,14 @@ This should look something like the following:
 
 The `Feature` encapsulates all tests executed against a particular solutions feature. A `Feature` can contain one or
 many `Scenarios`.
-{: .text-justify}
+{: .text-left}
 
 #### Background
 
 The `Background` is used to provide context to the `Fetaure`, and makes available context to each `Scenario` defined
 within the `Feature`. This is executed prior to each `Scenario`, though for the purpose of this blog, I've simply
 included this for structural purposes, and am not actually passing useful context to the  `Scenario` from it.
-{: .text-justify}
+{: .text-left}
 
 #### Scenario
 
@@ -105,7 +105,7 @@ particular test. This should be limited in scope; you can think of this like a u
 example above, it's within this section that we make use of the `Given`, `When`, `Then` keywords. These directly
 correspond to functions defined in the steps.py file (discussed below) with the use of decorators, specifically
 `@given`, `@when`, and `@then`.
-{: .text-justify}
+{: .text-left}
 
 ### Step File
 
@@ -115,7 +115,7 @@ mention that these functions can be used across multiple `Scenarios`, so make su
 `Scenario` specific into them. Instead, pass in variables via the `Scenario` itself. You can see an example of this in
 the `@then('we get the response code "{status_code}"')` decorator and function, where the `status_code` is passed in via
 the `Scenario` (refer back to the Feature file sample code).
-{: .text-justify}
+{: .text-left}
 
 {% gist d9591c619f1052982f106b18e1b905b8 %}
 
@@ -127,13 +127,13 @@ The behave package comes with a cli tool, which is what's used to execute the te
 the CLI tool provides, though I won't cover them here, except for the ```-D``` command, which allows us to provide
 additional userdata in the format of key,value pairs. This is how I passed in the env value in the environment.py file.
 For more information on the behave cli, have a look at the [docs](https://behave.readthedocs.io/en/stable/behave.html).
-{: .text-justify}
+{: .text-left}
 
 #### Execution
 
 Executing these tests is very simple. You just need to provide the feature path and any additional flags; in this case
 the ```-D``` command to input the environment.
-{: .text-justify}
+{: .text-left}
 
 ```shell
 behave path/to/features -D env=dev
@@ -150,7 +150,7 @@ In the following image, you can see that the feature, scenario and associated st
 Hopefully, you've gained some insight from this post; it had taken me a while to wrap my head around how all the pieces
 tied together, so I wanted to write this down in as simple a format as I could. I aim to follow this up with some more
 complex examples. In the meantime, happy coding :raised_hands:
-{: .text-justify}
+{: .text-left}
 
 ## Further Reading and References
 
