@@ -17,6 +17,12 @@ __Reference__:
 
 # CHANGELOG
 
+### [0.10.1]
+
+### Fixed
+
+* Unresolved logo images
+
 ## [0.10.0]
 
 ### Added
