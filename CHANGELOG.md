@@ -17,6 +17,12 @@ __Reference__:
 
 # CHANGELOG
 
+## [0.10.0]
+
+### Added
+
+* Tech stack icons to EV project
+
 ## [0.9.1]
 
 ### Fixed

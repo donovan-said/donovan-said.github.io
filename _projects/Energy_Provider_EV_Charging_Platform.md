@@ -5,6 +5,22 @@ image:
 description: Multinational Energy Provider
 ---
 
+## Tech Stacks
+
+<p>
+    <img alt="Static Badge" align="left" width="40" height="40" src="https://github.com/devicons/devicon/blob/master/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg"/>&nbsp;
+    <img alt="Static Badge" align="left" width="40" height="40" src="https://github.com/devicons/devicon/blob/master/icons/azure/azure-original.svg"/>&nbsp;
+    <img alt="Static Badge" align="left" width="40" height="40" src="https://github.com/devicons/devicon/blob/master/icons/github/github-original-wordmark.svg"/>&nbsp;
+    <img alt="Static Badge" align="left" width="40" height="40" src="https://github.com/devicons/devicon/blob/master/icons/githubactions/githubactions-original.svg"/>&nbsp;
+    <img alt="Static Badge" align="left" width="40" height="40" src="https://github.com/devicons/devicon/blob/master/icons/azuredevops/azuredevops-plain.svg"/>&nbsp;
+    <img alt="Static Badge" align="left" width="40" height="40" src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg"/>&nbsp;
+    <img alt="Static Badge" align="left" width="40" height="40" src="https://github.com/devicons/devicon/blob/master/icons/terraform/terraform-original.svg"/>&nbsp;
+    <img alt="Static Badge" align="left" width="40" height="40" src="https://github.com/devicons/devicon/blob/master/icons/docker/docker-plain.svg"/>&nbsp;
+    <img alt="Static Badge" align="left" width="40" height="40" src="https://github.com/devicons/devicon/blob/master/icons/kubernetes/kubernetes-plain-wordmark.svg"/>&nbsp;
+    <img alt="Static Badge" align="left" width="40" height="40" src="https://github.com/devicons/devicon/blob/master/icons/grafana/grafana-original-wordmark.svg"/>&nbsp;
+    <img alt="Static Badge" align="left" width="40" height="40" src="https://github.com/devicons/devicon/blob/master/icons/postgresql/postgresql-plain-wordmark.svg"/>&nbsp;
+</p>&nbsp;
+
 ## The Engagement
 
 My time on this engagement was spread across multiple teams, though they were all related to the EV charging platform, 
