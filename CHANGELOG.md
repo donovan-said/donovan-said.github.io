@@ -19,7 +19,7 @@ __Reference__:
 
 ### [0.11.0]
 
-### Chnaged
+### Changed
 
 * Project layout
 * Banner name
