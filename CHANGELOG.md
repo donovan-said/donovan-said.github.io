@@ -17,6 +17,13 @@ __Reference__:
 
 # CHANGELOG
 
+### [0.11.0]
+
+### Chnaged
+
+* Project layout
+* Banner name
+
 ### [0.10.1]
 
 ### Fixed
