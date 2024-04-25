@@ -17,6 +17,16 @@ __Reference__:
 
 # CHANGELOG
 
+### [0.12.0]
+
+### Changed
+
+* Updated About section
+
+### Removed
+
+* Removed GitHub projects so as to focus on project experience
+
 ### [0.11.0]
 
 ### Changed
