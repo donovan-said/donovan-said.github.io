@@ -17,7 +17,17 @@ __Reference__:
 
 # CHANGELOG
 
-### [0.12.0]
+## [0.12.1]
+
+### Fixed
+
+* Type in License
+
+### Added
+
+* CODE_OF_CONDUCT
+
+## [0.12.0]
 
 ### Changed
 
@@ -27,14 +37,14 @@ __Reference__:
 
 * Removed GitHub projects so as to focus on project experience
 
-### [0.11.0]
+## [0.11.0]
 
 ### Changed
 
 * Project layout
 * Banner name
 
-### [0.10.1]
+## [0.10.1]
 
 ### Fixed
 
